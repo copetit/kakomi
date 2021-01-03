@@ -1,7 +1,44 @@
-.button_area {
+.content {
+  width: 700px;
+}
+
+.title_area {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.input_area {
+  display: flex;
+}
+
+textarea {
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 2px 2px 4px gray inset;
+  border: none;
+  border-radius: 5%;
+  outline: none;
+  padding: 10px;
+}
+
+.box {
   margin: 10px;
 }
-textarea {
-  width: 200px;
-  height: 250px;
+
+.box-title {
+  text-align: center;
+  padding: 5px;
+  letter-spacing: 0.05em;
+  width: 30%;
+}
+.box-title.input {
+}
+
+.box-title.result {
+  width: 80% !important;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
 }

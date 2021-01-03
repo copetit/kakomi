@@ -9,12 +9,21 @@
     <script src="kakomi.js"></script>
   </head>
   <body>
-    <div class="button_area">
-      <button onclick="copy()">COPY</button>
-    </div>
-    <div class="text_area">
-      <textarea name="input" id="input" onkeyup="inputCheck()"></textarea>
-      <textarea name="result" id="result"></textarea>
+    <div class="content">
+      <div class="title_area"></div>
+      <div class="input_area">
+        <div class="box">
+          <div class="box-title input">Before</div>
+          <textarea name="input" id="input" onkeyup="inputCheck()"></textarea>
+        </div>
+        <div class="box">
+          <div class="box-title result">
+            After
+            <button onclick="copy()">COPY</button>
+          </div>
+          <textarea name="result" id="result"></textarea>
+        </div>
+      </div>
     </div>
   </body>
 </html>
