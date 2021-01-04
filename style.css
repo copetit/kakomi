@@ -1,19 +1,33 @@
 body {
   background-color: #edc64f;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .content {
-  width: 700px;
+  width: 800px;
 }
 
 .title_area {
   margin: 10px;
+  font-size: 2em;
   display: flex;
   justify-content: center;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    to right,
+    rgb(224, 185, 69) 25%,
+    rgb(153, 51, 80) 75%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .input_area {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 textarea {
@@ -33,6 +47,7 @@ textarea {
 }
 
 .box-title {
+  color: #795c05;
   text-align: center;
   padding: 5px;
   letter-spacing: 0.05em;
@@ -42,8 +57,25 @@ textarea {
 }
 
 .box-title.result {
-  width: 80% !important;
-  padding-left: 40px;
+  width: 85% !important;
+  padding-left: 25px;
   display: flex;
   justify-content: space-between;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(145deg, #fed455, #d5b247);
+  box-shadow: 7px 7px 15px #c9a843, -7px -7px 15px #ffe45b;
+  outline: none;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #edc64f;
+  box-shadow: inset 7px 7px 15px #c9a843, inset -7px -7px 15px #ffe45b;
 }
