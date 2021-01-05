@@ -24,6 +24,7 @@ body {
 .title_area {
   margin: 5px;
   font-size: 3.5em;
+  font-family: "Courier New";
   display: flex;
   justify-content: center;
   letter-spacing: 0.07em;
@@ -52,6 +53,7 @@ textarea {
   border-radius: 5%;
   outline: none;
   padding: 10px;
+  font-size: 1.2em;
 }
 
 .box {
@@ -67,12 +69,12 @@ textarea {
 }
 
 .box-title.result {
-  /* width: 85% !important; */
   display: flex;
   margin-right: 10px;
   flex-direction: row-reverse;
 }
 
+/* ボタン */
 button {
   height: 40px;
   width: 100px;
