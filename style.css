@@ -38,13 +38,14 @@ body {
 .input_area {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 textarea {
   margin: 10px;
   width: 400px;
-  height: 550px;
+  height: 500px;
   background-color: #edc64f;
   box-shadow: 8px 8px 20px #b99928 inset;
   border: none;
@@ -72,6 +73,14 @@ textarea {
   flex-direction: row-reverse;
 }
 
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 30px solid #b99928;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
 /* ボタン */
 button {
   height: 40px;
@@ -88,4 +97,8 @@ button {
 button:hover {
   background: #edc64f;
   box-shadow: inset 7px 7px 15px #c9a843, inset -7px -7px 15px #ffe45b;
+}
+
+footer {
+  margin-top: 40px;
 }
