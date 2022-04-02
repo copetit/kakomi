@@ -17,18 +17,11 @@ body {
 .title_area {
   margin-top: 20px;
   font-size: 3.5em;
-  font-family: "Courier New";
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 0.07em;
-  background: linear-gradient(
-    to right,
-    rgb(220 165 0) 25%,
-    rgb(153, 51, 80) 75%
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  color: black;
   height: 20%;
 }
 
@@ -49,8 +42,8 @@ textarea {
   background-color: #edc64f;
   box-shadow: 8px 8px 20px #b99928 inset;
   border: none;
-  border-radius: 5%;
   outline: none;
+  border-radius: 5%;
   padding: 10px;
   font-size: 1.2em;
   box-sizing: border-box;
@@ -68,9 +61,6 @@ textarea {
 .box-title {
   padding: 5px;
   min-height: 50px;
-}
-
-.box-title.input {
 }
 
 .box-title.result {
@@ -94,7 +84,6 @@ textarea {
   border-bottom: 30px solid transparent;
 }
 
-/* ボタン */
 button {
   height: 40px;
   width: 100px;
